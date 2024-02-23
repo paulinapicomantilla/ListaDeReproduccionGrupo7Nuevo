@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login music player</title>
+    <link rel="stylesheet" href=".\css\logIn.css">
+</head>
+<body>
+<form class="form" method="post">
+    <h1>SESIÓN DE INICIO</h1>    
+    <div class="form_content">    
+        <label for="txtusuario" class="form_label"><bold>Usuario</bold></label>
+        <input type="text"  name="txtusuario" id="txtusuario" class="form_input"><br><br>
+        <i class="bi bi-person-fill"></i>
+    </div>
+    <div >
+        <label for="lcorreo" class="form_label">Correo</label>
+        <input type="text" id="txtcorreo" name="txtcorreo" class="form_input"><br><br>
+    </div>
+    <div>
+        <label for="lpassword" class="form_label">Contraseña</label>
+        <input type="password" id="txtpassword" name="txtpassword" class="form_input"><br><br>
+        <i class="bi bi-eye-fill" id="viewPassword"></i>
+    </div>
+    <div>
+    <input type="button" class="form_button" value="Iniciar sesion" id="boton" onclick="login()"><br><br>
+    </div>
+</form>
+
+
+<script async src=".\src\logIn.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+<!--   codigo Joha
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login music player</title>
+    <link rel="stylesheet" href="\css\logIn.css">
+</head>
+<body>
+   <form class="form">
+    <div class="form_content">
+        <label for="name" class="form_label">Usuario</label>
+        <input type="text" class="form_input">
+        <label for="name" class="form_label">Contraseña</label>
+        <input type="password" class="form_input">
+        <button class="form_button">Login</button>
+    </div>
+
+   </form>
+    
+</body>
+</html>
+-->
